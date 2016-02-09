@@ -1,0 +1,27 @@
+{
+  "name": "react-skeleton",
+  "version": "1.0.0",
+  "description": "��#\u0000 \u0000r\u0000e\u0000a\u0000c\u0000t\u0000-\u0000s\u0000k\u0000e\u0000l\u0000e\u0000t\u0000o\u0000n\u0000\r\u0000 \u0000",
+  "main": "index.js",
+  "scripts": {
+    "start":"watchify src/main.jsx -v -t [babelify --presets [ react ] ] -o public/js/main.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takumisaw/react-skeleton.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takumisaw/react-skeleton/issues"
+  },
+  "homepage": "https://github.com/takumisaw/react-skeleton#readme",
+  "dependencies": {
+    "babel-preset-react": "^6.5.0",
+    "babelify": "^7.2.0",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "watchify": "^3.7.0"
+  }
+}
